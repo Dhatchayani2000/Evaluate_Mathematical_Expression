@@ -1,4 +1,3 @@
-# Mathematical Expression Evaluator
 
 ## Table of Contents
 - [Introduction](#introduction)
