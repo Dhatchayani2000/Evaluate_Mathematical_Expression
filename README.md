@@ -37,32 +37,3 @@ def evaluate_expression(expression: str) -> float:
     except ValueError as e:
         print(e)
     ```
-## Description
-
-The `evaluate_expression` function takes a mathematical expression as a string and evaluates it according to the standard order of operations (BODMAS/BIDMAS), considering parentheses to override the default precedence.
-
-### Supported Operations
-
-- Addition: `+`
-- Subtraction: `-`
-- Multiplication: `*`
-- Division: `/`
-- Parentheses: `(` and `)`
-
-## Input Validation
-
-The function performs input validation and raises a `ValueError` in the following cases:
-
-- Invalid characters in the expression.
-- Division by zero.
-- Mismatched opening or closing parentheses.
-
-## Example Usage
-
-```python
-expression = "(4-4)-(56)/34-((9.6-0)*33)*0"
-try:
-    result = evaluate_expression(expression)
-    print(result)
-except ValueError as e:
-    print(e)
