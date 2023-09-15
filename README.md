@@ -37,7 +37,6 @@ def evaluate_expression(expression: str) -> float:
     except ValueError as e:
         print(e)
     ```
-    
 ## Description
 
 The `evaluate_expression` function takes a mathematical expression as a string and evaluates it according to the standard order of operations (BODMAS/BIDMAS), considering parentheses to override the default precedence.
